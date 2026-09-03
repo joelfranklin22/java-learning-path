@@ -3,11 +3,13 @@ import moment from "moment";
 import simpleGit from "simple-git";
 
 const path = "./data.json";
+
 const git = simpleGit();
 
 // Start and end dates
-let date = moment.parseZone("2026-01-01T12:00:00+05:30");
-const endDate = moment.parseZone("2026-03-31T12:00:00+05:30");
+let date = moment.parseZone("2025-03-14T12:00:00+05:30");
+
+const endDate = moment.parseZone("2025-05-18T12:00:00+05:30");
 
 const makeCommits = async () => {
   while (date.isSameOrBefore(endDate, "day")) {
@@ -41,7 +43,7 @@ const makeCommits = async () => {
       console.log(`  Commit ${i}: ${commitDate}`);
     }
 
-    // Move to next day ONLY after all commits are completed
+    // Move to next day
     date.add(1, "day");
   }
 
