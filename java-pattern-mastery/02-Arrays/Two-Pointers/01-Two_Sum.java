@@ -8,7 +8,6 @@ class TwoSum {
     }
 
     static boolean twoSum(int arr[], int target) {
-        // code here
         Arrays.sort(arr);
 
         int i = 0;
