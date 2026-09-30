@@ -1,3 +1,5 @@
+// Three Sum -> Two pointers concept and added extra pointer to find Three Sum
+
 class Three_Sum {
     public static void main(String args[]) {
         int arr[] = { 1, 12, 0, 32, 1, 4, 8, 10, 2, 23 };
