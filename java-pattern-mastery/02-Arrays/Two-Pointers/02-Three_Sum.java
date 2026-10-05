@@ -1,4 +1,3 @@
-// Three Sum -> Two pointers concept and added extra pointer to find Three Sum
 
 class Three_Sum {
     public static void main(String args[]) {
