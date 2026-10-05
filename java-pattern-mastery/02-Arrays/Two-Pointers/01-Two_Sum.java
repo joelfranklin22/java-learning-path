@@ -1,4 +1,4 @@
-// Solved Two Sum using Two Pointers but the optimal is using HashMap when array is not sorted
+
 
 import java.util.Arrays;
 
