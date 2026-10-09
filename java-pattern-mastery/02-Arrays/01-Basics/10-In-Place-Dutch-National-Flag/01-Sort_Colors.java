@@ -10,15 +10,19 @@ class sort_colors {
         int mid = 0;
         int high = nums.length - 1;
         while (mid <= high) {
-            if (nums[mid] == 0) {
-                swap(nums, low, mid);
-                low++;
-                mid++;
-            } else if (nums[mid] == 2) {
-                swap(nums, mid, high);
-                high--;
-            } else {
-                mid++;
+            switch (nums[mid]) {
+                case 0 -> {
+                    swap(nums, low, mid);
+                    low++;
+                    mid++;
+                }
+                case 2 -> {
+                    swap(nums, mid, high);
+                    high--;
+                }
+                default -> {
+                    mid++;
+                }
             }
         }
 
@@ -26,13 +30,18 @@ class sort_colors {
         int zeros = 0;
         int ones = 0;
         int twos = 0;
+        System.out.println(twos);
         for (int i = 0; i < nums.length; i++) {
-            if (nums[i] == 0) {
-                zeros++;
-            } else if (nums[i] == 1) {
-                ones++;
-            } else {
-                twos++;
+            switch (nums[i]) {
+                case 0 -> {
+                    zeros++;
+                }
+                case 1 -> {
+                    ones++;
+                }
+                case 2 -> {
+                    twos++;
+                }
             }
         }
         int j = 0;
@@ -51,7 +60,7 @@ class sort_colors {
         // Method -3 using Insertion sort
         int v = 0;
         int a = 0;
-
+        System.out.println(v + ":" + a);
         for (int i = 0; i < nums.length; i++) {
             v = nums[i];
             for (a = i - 1; a >= 0 && nums[a] > v; a--) {
