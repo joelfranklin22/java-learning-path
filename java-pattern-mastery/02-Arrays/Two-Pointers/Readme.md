@@ -1,1 +1,0 @@
-## This folder contains Two Pointer Problems 
