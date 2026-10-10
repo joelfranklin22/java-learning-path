@@ -1,7 +1,10 @@
 
+import java.util.*;
+
 class Three_Sum {
+
     public static void main(String args[]) {
-        int arr[] = { 1, 12, 0, 32, 1, 4, 8, 10, 2, 23 };
+        int arr[] = {1, 12, 0, 32, 1, 4, 8, 10, 2, 23};
         int target = 5;
         System.out.println(hasTripletSum(arr, target));
     }
@@ -19,12 +22,13 @@ class Three_Sum {
             while (left < right) {
                 int sum = arr[i] + arr[left] + arr[right];
 
-                if (sum == target)
+                if (sum == target) {
                     return true;
-                else if (sum < target)
+                }else if (sum < target) {
                     left++;
-                else
+                }else {
                     right--;
+                }
             }
             i++;
         }
