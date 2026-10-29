@@ -35,7 +35,7 @@ class Merge_Intervals {
         }
         result.add(new int[]{currentStart, currentEnd});
 
-        return result.toArray(new int[0][]);
+        return result.toArray(int[][]::new);
 
     }
 }
