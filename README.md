@@ -7,7 +7,7 @@ A structured Java learning archive covering core fundamentals to interview-level
 - **Beginners-Level** — Core Java fundamentals and syntax practice
 - **Geeks-for-Geeks** — GeeksforGeeks style problem solving
 - **LeetCode-Problems** — LeetCode solutions in Java
-- **Zoho-java-preparation** — Interview preparation focused on Zoho recruitment patterns
+- **Zoho-java-preparation** — Interview preparation focused on Zoho recruitment patterns.
 
 ## 🛠️ Tech Stack
 - Java
