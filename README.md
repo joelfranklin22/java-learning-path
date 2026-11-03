@@ -1,6 +1,6 @@
 # Java Mastery
 
-A structured Java learning archive covering core fundamentals to interview-level problem solving.
+### A structured Java learning archive covering core fundamentals to interview-level problem solving.
 
 ## 📂 What's Inside
 - **100Days-Coding-Challenge** — Daily Java coding practice
