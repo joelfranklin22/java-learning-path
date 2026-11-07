@@ -15,6 +15,3 @@
 
 ## 🎯 Purpose
 This repository documents a consistent learning journey through Java — from basic syntax to solving data structure and algorithm problems used in technical interviews.
-
-## 📌 Status
-✅ Active / Ongoing
