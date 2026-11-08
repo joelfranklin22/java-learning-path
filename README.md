@@ -8,7 +8,7 @@
 - **Geeks-for-Geeks** — GeeksforGeeks style problem solving
 - **LeetCode-Problems** — LeetCode solutions in Java
 - **Zoho-java-preparation** — Interview preparation focused on Zoho recruitment patterns.
-- ** java-pattern-mastery** - Pattern wise problems solved basic to advanced topics
+- ** java-pattern-mastery** - Pattern wise problems solved basic to advanced topics.
 
 ## 🛠️ Tech Stack
 - Java
